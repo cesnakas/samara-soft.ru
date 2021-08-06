@@ -1,0 +1,23 @@
+# PHPStorm
+/.idea/
+
+# Node
+node_modules/
+jspm_packages/
+
+# Sass
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
+
+# Other
+/cgi-bin/
+/awstats/
+/webstat/
+.DS_Store
+.AppleDouble
+.LSOverride
+.Trashes
+Thumbs.db
+ehthumbs.db
