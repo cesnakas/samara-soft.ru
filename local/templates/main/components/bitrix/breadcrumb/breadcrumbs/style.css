@@ -1,0 +1,32 @@
+.bx-breadcrumb {
+	margin: 20px 0;
+}
+.bx-breadcrumb i {
+    margin-left: 5px;
+    background: url(/images/bc-arrow.svg) 0 0 no-repeat;
+    vertical-align: middle;
+    display: block;
+    width: 9px;
+    height: 9px;
+    margin-top: 8px;
+    float: left;
+    margin-right: 3px;
+
+}
+.bx-breadcrumb .bx-breadcrumb-item {
+	display: inline-block;
+	white-space: nowrap;
+	vertical-align: middle;
+}
+.bx-breadcrumb .bx-breadcrumb-item span {
+	font-family: "Montserrat";
+	font-size: 10px;
+	font-weight: 700;
+	white-space: normal;
+	text-transform: uppercase;
+}
+.bx-breadcrumb .bx-breadcrumb-item i + span {
+	color:  #7d7d7d;
+}
+.bx-breadcrumb .bx-breadcrumb-item a {border-bottom: none;}
+.bx-breadcrumb .bx-breadcrumb-item a:hover {}
