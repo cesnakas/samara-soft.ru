@@ -3,7 +3,7 @@ require($_SERVER['DOCUMENT_ROOT'].'/bitrix/header.php');
 $APPLICATION->SetTitle('Главная');
 ?> 
 
-<section class="section section-about section-news">
+    <section class="section section-about section-news">
 		<div class="container">
 			<div class="row">
 				<div class="col-6 d-flex">
@@ -16,7 +16,7 @@ $APPLICATION->SetTitle('Главная');
 		</div>
 	</section>
 
-<section class="section section-company">
+    <section class="section section-company">
 		<div class="container">
 			<div class="row items cert">
 				<div class="col-2">
@@ -72,7 +72,7 @@ $APPLICATION->SetTitle('Главная');
 					<img src="/images/info-2.png" class="blue-color">
 					<div class="layer-blue-color">
 						<span>Сотрудников в штате</span>
-						<span>100</spanb>
+						<span>100</span>
 					</div>
 				</div>
 				<div class="col-4">
@@ -87,14 +87,14 @@ $APPLICATION->SetTitle('Главная');
 					<img src="/images/info-2.png" class="blue-color">
 					<div class="layer-blue-color">
 						<span>Сотрудников в штате</span>
-						<span>100</spanb>
+						<span>100</span>
 					</div>
 				</div>
 				<div class="col-4">
 					<img src="/images/info-1.png" class="blue-color">
 					<div class="layer-blue-color">
 						<span>Сотрудников в штате</span>
-						<span>100</spanb>
+						<span>100</span>
 					</div>
 				</div>
 				<div class="col-4">
@@ -232,18 +232,18 @@ $APPLICATION->SetTitle('Главная');
 				</div>
 			</div>
 		</div>
-</section>
+    </section>
 
+    <script>
+        var swiper = new Swiper('.swiper-slaider', {
+          navigation: {
+            speed: 50,
+            nextEl: '.swiper2-button-next',
+            prevEl: '.swiper2-button-prev',
+          },
+        });
+    </script>
 
-<script>
-    var swiper = new Swiper('.swiper-slaider', {
-      navigation: {
-      	speed: 50,
-        nextEl: '.swiper2-button-next',
-        prevEl: '.swiper2-button-prev',
-      },
-    });
-</script>
 <?
 require($_SERVER['DOCUMENT_ROOT'].'/bitrix/footer.php');
 ?>
