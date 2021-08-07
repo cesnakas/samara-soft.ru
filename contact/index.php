@@ -18,25 +18,25 @@ h4 {
 	display: block !important;
 }
 </style>
-<script type="text/javascript">
-	$( document ).ready(function() {
-    	$('#show-cart').click( function() {
-    		$('.cart-disabled-fast').toggle(300);
-    		$('.cart').toggleClass("visibility");  		
-	   	});
-	   
-	
-		/*$('body').click( function() {
-			$('label.active').removeClass('active');
-		});*/
-		
-    	$('.md-form').click(function (event) {
-    		$(this).find('label').addClass('active');
-		});
 
+    <script type="text/javascript">
+        $( document ).ready(function() {
+            $('#show-cart').click( function() {
+                $('.cart-disabled-fast').toggle(300);
+                $('.cart').toggleClass("visibility");
+            });
 
-	});
-</script>
+            /*$('body').click( function() {
+                $('label.active').removeClass('active');
+            });*/
+
+            $('.md-form').click(function (event) {
+                $(this).find('label').addClass('active');
+            });
+
+        });
+    </script>
+
 	<section class="section section-about section-news">
 		<div class="container">
 			<div class="row">
@@ -49,7 +49,7 @@ h4 {
 		</div>
 	</section>
 
-<section class="section section-projects page-projects" style="max-height: 463px;">
+    <section class="section section-projects page-projects" style="max-height: 463px;">
 		<div class="container">
 			<div class="row items">
 				<div class="col-5">
@@ -100,8 +100,7 @@ h4 {
 						<span id="show-cart" style="display: block;">Схема проезда</span>
 						<div class="cart block-cart">	
 						<a href="https://yandex.ru/maps/?um=constructor%3A37af1a018d5c542f5e03f4cc8a41da0baf52d9664c56967dacd21c5bbb6404fb&amp;source=constructorStatic" target="_blank"><img src="https://api-maps.yandex.ru/services/constructor/1.0/static/?um=constructor%3A37af1a018d5c542f5e03f4cc8a41da0baf52d9664c56967dacd21c5bbb6404fb&amp;width=500&amp;height=400&amp;lang=ru_RU" alt="" style="border: 0;" /></a>
-						
-						
+
 						</div>
 					</div>
 					</div>
